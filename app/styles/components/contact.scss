@@ -1,0 +1,44 @@
+.contact {
+
+  font-family: 'Roboto', sans-serif;
+  color: #00AFF0;
+
+  &__link {
+    text-decoration: none;
+    color: #00AFF0;
+  }
+
+  &__img {
+    background: url(../img/user.svg);
+    background-size: 100%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+
+    &--girl {
+      background: url(../img/usere.svg);
+    background-size: 100%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+    }
+  } 
+
+  &__text {
+    
+    &--name {
+      margin-top: 10px;
+      font-weight: bolder;
+      font-size: 20px;
+    }
+
+    &--work {
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+  }
+}
